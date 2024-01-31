@@ -1,0 +1,5 @@
+venit = int(input('venitul dumneavoastra: '))
+print('recomandarile noastre :')
+print('cheltuieli uzuale', venit * 1 / 2)
+print('recreere', venit * 30 / 100)
+print('economii si datorii', venit * 1 / 5)
