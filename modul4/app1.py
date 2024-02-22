@@ -23,4 +23,6 @@ def check_passwd():
 
     if condition_not_ok:
         check_passwd()
-check_passwd()
+print(f"Script2 name is {__name__}")
+if __name__ == '__main__' :
+    check_passwd()

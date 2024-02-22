@@ -15,3 +15,5 @@ for dictio in lista_carti:
     for key, value in dictio.items():
         if key == 'an' and int(value) > an_introdus:
             print(f"{list(dictio.values())[0]} a fost publicata dupa {an_introdus}.")
+
+
